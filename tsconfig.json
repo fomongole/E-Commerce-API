@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",             /* Modern JS features */
+    "module": "commonjs",           /* Standard Node.js module system */
+    "lib": ["es6", "dom"],
+    "allowJs": true,
+    "outDir": "dist",               /* Build output folder */
+    "rootDir": "src",               /* Source code folder */
+    "strict": true,                 /* Enable strict type checking */
+    "noImplicitAny": true,
+    "esModuleInterop": true,        /* Fixes imports for CommonJS modules */
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
